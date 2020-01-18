@@ -17,6 +17,7 @@ namespace WebBMI.Controllers
         [HttpPost]
         public ActionResult Calculate(FormCollection data)
         {
+            //test
             //get Data From UI
             int fieldHeight = int.Parse(data["fieldHeight"]);
             int fieldWeight = int.Parse(data["fieldWeight"]);
